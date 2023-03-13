@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'Authentication/AuthScreenUI.dart';
+import 'Kyc/GenderPage.dart';
 
 void main(List<String> args) {
   runApp(MainUI());
@@ -18,7 +19,7 @@ class _MainUIState extends State<MainUI> {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: AuthUI(),
+      home: Genderpage(),
     );
   }
 }

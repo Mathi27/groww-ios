@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-
 import '../Commons/Sizeconfig.dart';
 import 'GoogleSignIn.dart';
 import 'NormalLogin.dart';

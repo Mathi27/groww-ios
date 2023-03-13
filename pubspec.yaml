@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   rive: ^0.10.2
   google_fonts: ^4.0.3
+  provider: ^6.0.5
+  enough_platform_widgets: ^0.7.1
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +67,7 @@ flutter:
     - assets/splashScreen.png
     - assets/screenbg.riv
     - assets/googlelogo.png
+    - assets/anim.riv
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
